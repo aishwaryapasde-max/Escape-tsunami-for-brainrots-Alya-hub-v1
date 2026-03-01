@@ -1,4 +1,45 @@
--- [[ ALYA & KRALTIS HUB | OBFUSCATED FULL EDITION ]]
--- [[ ENCRYPTED FOR ADITYA ]]
+-- [[ ALYA HUB V1 | OBFUSCATED & VERIFIED ]]
+-- [[ ENCRYPTED FOR ADITYA - LATUR ]]
 
-local _0x5F2=game:GetService("Players")local _0x2A1=_0x5F2.LocalPlayer or _0x5F2.PlayerAdded:Wait()local _0x9B4=game:GetService("HttpService")local _0x3D7=game:GetService("TeleportService")local _0x1C2=game:GetService("CoreGui")local _0x7E1=game:GetService("UserInputService")local _0x8F4=game:GetService("TextChatService")local _0x4D3=game:GetService("VirtualUser")local _0xLib=loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()local _0xWin=_0xLib:MakeWindow({Name="Alya Brainrot Hub",HidePremium=false,SaveConfig=true,ConfigFolder="AlyaHub",IntroText="Alya Hub V1"})local _0xMainUI=_0x1C2:FindFirstChild("Orion")if _0xMainUI then local _0xBg=Instance.new("ImageLabel")_0xBg.Name="AlyaBackground" _0xBg.Parent=_0xMainUI.Main _0xBg.Size=UDim2.new(1,0,1,0)_0xBg.Image="rbxassetid://15634215283"_0xBg.ImageTransparency=0.8 _0xBg.ZIndex=0 end local function _0xBypass()local _0xmt=getrawmetatable(game)setreadonly(_0xmt,false)local _0xold=_0xmt.__index _0xmt.__index=newcclosure(function(_0xt,_0xk)if _0xk=="WalkSpeed" or _0xk=="JumpPower" then return 16 end return _0xold(_0xt,_0xk)end)setreadonly(_0xmt,true)end _0xBypass()local _0xTab=_0xWin:MakeTab({Name="Hacks",Icon="rbxassetid://4483345998",PremiumOnly=false})_0xTab:AddToggle({Name="VIP & Tsunami Immunity",Default=false,Callback=function(_0xV)_G.Immune=_0xV while _G.Immune do task.wait(0.5)for _,v in pairs(workspace:GetDescendants())do if v.Name:find("VIP")then v.CanCollide=not _0xV end end local _0xh=_0x2A1.Character:FindFirstChild("Humanoid")if _0xh then _0xh:SetStateEnabled(Enum.HumanoidStateType.Swimming,not _0xV)end end end})_0xTab:AddToggle({Name="Auto-Collect Money",Default=false,Callback=function(_0xV)_G.Money=_0xV while _G.Money do task.wait(0.2)for _,o in pairs(workspace:GetChildren())do if o.Name:find("Money")or o.Name:find("Coin")then local _0xtw=game:GetService("TweenService"):Create(o,TweenInfo.new(0.3),{CFrame=_0x2A1.Character.HumanoidRootPart.CFrame})_0xtw:Play()end end end end})_0xTab:AddButton({Name="Subscribe @ADITYA_100KDELTA",Callback=function()setclipboard("https://www.youtube.com/@ADITYA_100KDELTA")_0xLib:MakeNotification({Name="Link Copied!",Content="Subscribe now!",Time=5})end})_0xTab:AddButton({Name="( X ) CLOSE MENU",Callback=function()_0xLib:Destroy()end})_0xLib:Init()
+local _0x72=loadstring(game:HttpGet(('\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\115\104\108\101\120\119\97\114\101\47\79\114\105\111\110\47\109\97\105\110\47\115\111\117\114\99\101')))()
+local _0xWindow=_0x72:MakeWindow({Name="\65\108\121\97\32\66\114\97\105\110\114\111\116\32\72\117\98",HidePremium=false,SaveConfig=true,ConfigFolder="\65\108\121\97\72\117\98",IntroText="\65\108\121\97\32\72\117\98\32\86\49"})
+
+-- [[ BACKGROUND ENCRYPTION ]]
+local function _0xSetup()
+    local _0xUI=game:GetService("\67\111\114\101\71\117\105"):FindFirstChild("\79\114\105\111\110")
+    if _0xUI then 
+        local _0xImg=Instance.new("\73\109\97\103\101\76\97\98\101\108")
+        _0xImg.Parent=_0xUI.Main 
+        _0xImg.Size=UDim2.new(1,0,1,0)
+        _0xImg.Image="\114\98\120\97\115\115\101\116\105\100\58\47\47\49\53\54\51\52\50\49\53\50\56\51"
+        _0xImg.ImageTransparency=0.8 
+        _0xImg.ZIndex=0 
+    end
+end
+_0xSetup()
+
+-- [[ FEATURES ]]
+local _0xTab=_0xWindow:MakeTab({Name="\72\97\99\107\115",Icon="\114\98\120\97\115\115\101\116\105\100\58\47\47\52\52\56\51\51\52\53\57\57\56"})
+
+_0xTab:AddToggle({
+    Name="\84\115\117\110\97\109\105\32\73\109\109\117\110\105\116\121",
+    Default=false,
+    Callback=function(_0xState)
+        _G.Immune=_0xState
+        while _G.Immune do task.wait(0.5)
+            local _0xHum=game.Players.LocalPlayer.Character:FindFirstChild("\72\117\109\97\110\111\105\100")
+            if _0xHum then _0xHum:SetStateEnabled(Enum.HumanoidStateType.Swimming,not _0xState)end 
+        end
+    end
+})
+
+_0xTab:AddButton({
+    Name="\83\117\98\115\99\114\105\98\101\32\64\65\68\73\84\89\65\95\49\48\48\75\68\69\76\84\65",
+    Callback=function()
+        setclipboard("\104\116\116\112\115\58\47\47\119\119\119\46\121\111\117\116\117\98\101\46\99\111\109\47\64\65\68\73\84\89\65\95\49\48\48\75\68\69\76\84\65")
+        _0x72:MakeNotification({Name="\76\105\110\107\32\67\111\112\105\101\100\33",Content="\80\97\115\116\101\32\105\110\32\66\114\111\119\115\101\114\33",Time=5})
+    end
+})
+
+_0xTab:AddButton({Name="\40\32\88\32\41\32\67\76\79\83\69\32\77\69\78\85",Callback=function()_0x72:Destroy()end})
+_0x72:Init()
